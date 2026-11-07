@@ -9,6 +9,7 @@
 | Generate_ROIs_WindowsOs | Gelatin_Degradation | Invadosome Kinetics, Krendel | Automation of invadosome / podosome identification for subsequent pipeline analysis | Masking cells to investigate geometry |
 | Generate_ROIs_MacOs | Gelatin_Degradation | Invadosome Kinetics, Krendel | Automation of invadosome / podosome identification for subsequent pipeline analysis | Masking cells to investigate geometry |
 | Gelatin_Degradation_Segmentation | Gelatin_Degradation | Invadosome Kinetics, Krendel | Automatically mask and quantify surface area of<br> degraded fluorescent gelatin in the image | None |
-| quicksave | Phagocytosis | Myo1e/f Phagocytic Podosomes; Krendel | accelerate saving throughput from "Auto_masking_Beads_External_IgG" macro | None |
-| Auto_masking_Beads_External_IgG | Phagocytosis | Myo1e/f Phagocytic Podosomes; Krendel | From fluorescence images of external IgG and Beads in contact with Macrophage (DIC)<br>approximate the bead coverage by phagocytic cups and count beads | None |
-
+| quicksave | Phagocytosis | Myo1e/f Phagocytic Podosomes; Krendel | This is ment to accelerate saving throughput from "Auto_masking_Beads_External_IgG" macro | None |
+| Auto_masking_Beads_External_IgG | Phagocytosis | Myo1e/f Phagocytic Podosomes, Krendel | From fluorescence images of external IgG and Beads in contact with Macrophage (DIC)<br>approximate the bead coverage by phagocytic cups and count beads | None |
+| Pretrainning_workflow | Segmentation | Epithelial cell junctions, Krendel | Automated workflow for immunofluorescence images of cell junstions and their actin cytoskeleton. This function will yeild mask of cell junctions and cell free edges for ML training | None |
+| NISElements_ROI_Stack | Batch Saving | Photostimulation, Amack | From one ROI mask generate a stack of ROI outlines | None |
