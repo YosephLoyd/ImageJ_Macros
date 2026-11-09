@@ -13,3 +13,5 @@
 | Auto_masking_Beads_External_IgG | Phagocytosis | Myo1e/f Phagocytic Podosomes, Krendel | From fluorescence images of external IgG and Beads in contact with Macrophage (DIC)<br>approximate the bead coverage by phagocytic cups and count beads | None |
 | Pretrainning_workflow | Segmentation | Epithelial cell junctions, Krendel | Automated workflow for immunofluorescence images of cell junstions and their actin cytoskeleton. This function will yeild mask of cell junctions and cell free edges for ML training | None |
 | NISElements_ROI_Stack | Batch Saving | Photostimulation, Amack | From one ROI mask generate a stack of ROI outlines | None |
+| Roi_Measure_save | Batch Saving | Myo1e/f Phagocytic Podosomes, Krendel | Phagocytic uptake measurements for uptake measurements with the Krendel space. | General archiving of ImageJ measurments |
+| Actin_Filaments | Segmentation | Photostimulation, Amack | Segement actin in immunofluorescence images to ID stress fibers. Subsequently, quantifies stress fiber and cortical actin geometry through skeleton analysis. | Novel Uses |
